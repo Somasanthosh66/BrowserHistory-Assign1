@@ -7,8 +7,6 @@ const HistoryItem = props => {
   const onDelete = () => {
     deleteItem(id)
   }
-
-  
   return (
     <li>
       <div className="list-item">
